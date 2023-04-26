@@ -24,7 +24,7 @@ export default function Contact() {
   return (
     <section className='flex flex-col items-center gap-[30px] pt-[70px] pb-[60px] bg-SoftBlue lg:gap-10 lg:pb-[74px]'>
       <div className="flex flex-col items-center gap-3 lg:gap-9">
-        <span className='text-sm tracking-[0.25em] text-White/50 font-medium uppercase lg:tracking-[.325em]'>35,000+ already joined</span>
+        <span className='block text-sm text-center tracking-[0.25em] text-White/50 font-medium uppercase lg:tracking-[.325em]'>35,000+ already joined</span>
         <h2 className='text-2xl text-center tracking-[0.002em] leading-7 font-medium text-White lg:text-[31px] lg:leading-9 lg:w-9/12'>Stay up-to-date with what we’re doing</h2>
       </div>
       <form className="flex flex-col w-10/12 gap-4 lg:flex-row lg:justify-center">
