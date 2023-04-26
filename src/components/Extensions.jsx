@@ -6,17 +6,17 @@ import operaLogo from '../assets/logo-opera.svg'
 const browsersInfo = [
   {
     "id":'Chrome',
-    "img": '../assets/logo-chrome.svg',
+    "img": chromeLogo,
     "version": 62
   },
   {
     "id":'Firefox',
-    "img":  '../assets/logo-firefox.svg',
+    "img":  firefoxLogo,
     "version":55
   },
   {
     "id":'Opera',
-    "img": '../assets/logo-opera.svg',
+    "img": operaLogo,
     "version":46
   }
 ];
