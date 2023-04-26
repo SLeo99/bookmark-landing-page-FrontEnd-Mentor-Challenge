@@ -1,7 +1,9 @@
 import React from 'react'
 import BlueBtn from './BlueBtn'
 import { useState } from 'react'
-
+import featuresFirstImg from '../assets/illustration-features-tab-1.svg'
+import featuresSecondImg from '../assets/illustration-features-tab-2.svg'
+import featuresThirdImg from '../assets/illustration-features-tab-3.svg'
 
 export default function Features() {
 
@@ -10,19 +12,19 @@ export default function Features() {
     "info": 
     [{
       "name": "Simple Bookmarking",
-      "img": "../assets/illustration-features-tab-1.svg",
+      "img": featuresFirstImg,
       "title": "Bookmark in one click",
       "description": "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites."
     },
     {
       "name": "Speedy Searching",
-      "img": "../assets/illustration-features-tab-2.svg",
+      "img": featuresSecondImg,
       "title": "Intelligent search",
       "description": "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks."
     },
     {
       "name": "Easy Sharing",
-      "img": "../assets/illustration-features-tab-3.svg",
+      "img": featuresThirdImg,
       "title": "Share your bookmarks",
       "description": "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button."
     }]
