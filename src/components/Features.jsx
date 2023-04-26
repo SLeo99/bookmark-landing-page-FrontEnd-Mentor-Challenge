@@ -50,7 +50,7 @@ export default function Features() {
         ))}
       </div>
       <div className="flex flex-col mt-14 w-full md:flex-row lg:mt-16 xl:mt-10">
-        <div className='relative pb-9 pt-1 flex justify-end md:basis-1/2 xl:basis-1/2 xl:pt-0 xl:pb-24'>
+        <div className='relative pb-9 pt-1 flex justify-end md:basis-1/2 xl:basis-1/2 xl:pt-0'>
           <img src={btn === 'Speedy Searching' ? speedy.img : btn === 'Easy Sharing' ? easyshare.img : bookmark.img} alt="featuresimage" className='w-5/6 mx-auto relative z-10 sm:w-4/6 xl:w-9/12 xl:mx-0 xl:self-end xl:mr-3 2xl:max-w-[657px]'/>
           <div className='h-[203px] w-10/12 bg-SoftBlue rounded-r-full absolute left-0 bottom-0 xl:h-4/5 xl:w-11/12 max-h-[356px]'></div>
         </div>
