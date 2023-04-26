@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header className='flex justify-center py-10 mx-8 lg:mx-0 md:justify-between lg:py-[48px]'>
       <nav className='container w-full flex justify-between items-center mx-auto lg:mx-[165px] 2xl:mx-auto' aria-label='desktopnavigation'>
-        <img src='../assets/logo-bookmark.svg' alt="bookmarklogo" className={menu ? 'opacity-0' : 'lg:ml-[6px]'}/>
+        <img src={bookmarkLogo} alt="bookmarklogo" className={menu ? 'opacity-0' : 'lg:ml-[6px]'}/>
         <ul className='hidden lg:flex items-center gap-[46px] text-[14px]'>
           <li><a href="#" className='uppercase font-medium text-GrayishBlue hover:text-SoftRed transition-colors'>Features</a></li>
           <li><a href="#" className='uppercase tracking-[1px] font-medium text-GrayishBlue hover:text-SoftRed transition-colors'>Pricing</a></li>
