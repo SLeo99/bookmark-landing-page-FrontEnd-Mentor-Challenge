@@ -1,19 +1,22 @@
 import React from 'react'
+import chromeLogo from '../src/assets/logo-chrome.svg'
+import firefoxLogo from '../src/assets/logo-firefox.svg'
+import operaLogo from '../src/assets/logo-opera.svg'
 
 const browsersInfo = [
   {
     id:'Chrome',
-    img:'../src/assets/logo-chrome.svg',
-    version:62
+    img: chromeLogo,
+    version: 62
   },
   {
     id:'Firefox',
-    img:'../src/assets/logo-firefox.svg',
+    img:  firefoxLogo,
     version:55
   },
   {
     id:'Opera',
-    img:'../src/assets/logo-opera.svg',
+    img: operaLogo,
     version:46
   }
 ];
