@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { FaFacebookSquare, FaTwitter } from "react-icons/fa";
 import bookmarkLogo from '../assets/logo-bookmark.svg'
-import burgerImg from '../assets/logo-bookmark-burguer-menu.svg'
+import burgerImg from '../assets/icon-hamburger.svg'
 import mobileMenuLogo from '../assets/logo-bookmark-burguer-menu.svg'
 import closeMenuImg from '../assets/icon-close.svg'
 
