@@ -1,6 +1,5 @@
 import React from 'react'
 import faq from '../faqjson.js'
-import BlueBtn from './BlueBtn.jsx'
 
 
 export default function Faq() {

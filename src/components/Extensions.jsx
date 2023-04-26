@@ -5,19 +5,19 @@ import operaLogo from '../assets/logo-opera.svg'
 
 const browsersInfo = [
   {
-    id:'Chrome',
-    img: '../assets/logo-chrome.svg',
-    version: 62
+    "id":'Chrome',
+    "img": '../assets/logo-chrome.svg',
+    "version": 62
   },
   {
-    id:'Firefox',
-    img:  '../assets/logo-firefox.svg',
-    version:55
+    "id":'Firefox',
+    "img":  '../assets/logo-firefox.svg',
+    "version":55
   },
   {
-    id:'Opera',
-    img: '../assets/logo-opera.svg',
-    version:46
+    "id":'Opera',
+    "img": '../assets/logo-opera.svg',
+    "version":46
   }
 ];
 
