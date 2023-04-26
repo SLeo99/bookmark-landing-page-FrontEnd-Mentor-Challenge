@@ -1,7 +1,7 @@
 import React from 'react'
-import chromeLogo from '../src/assets/logo-chrome.svg'
-import firefoxLogo from '../src/assets/logo-firefox.svg'
-import operaLogo from '../src/assets/logo-opera.svg'
+import chromeLogo from '../assets/logo-chrome.svg'
+import firefoxLogo from '../assets/logo-firefox.svg'
+import operaLogo from '../assets/logo-opera.svg'
 
 const browsersInfo = [
   {
