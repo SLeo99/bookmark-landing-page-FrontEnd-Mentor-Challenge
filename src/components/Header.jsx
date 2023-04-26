@@ -38,8 +38,8 @@ export default function Header() {
           <a href="#" className='uppercase mt-5 w-full text-center py-[8px] text-xl tracking-widest border-2 rounded-md border-GrayishBlue text-White'>Login</a>
         </div>
         <div className="flex justify-center gap-9 mt-[219px]">
-          <span className='text-White'><FaFacebookSquare size={28}/></span>
-          <span className='text-White'><FaTwitter size={28}/></span>
+          <a href='#' className='text-White'><FaFacebookSquare size={28}/></a>
+          <a href='#' className='text-White'><FaTwitter size={28}/></a>
         </div>
       </nav>
     </header>
