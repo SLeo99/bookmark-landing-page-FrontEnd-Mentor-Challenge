@@ -24,7 +24,6 @@ export default function Faq() {
                 }}>
                   <span className='tracking-tight pointer-events-none text-VeryDarkBlue lg:tracking-wide leading-none'>{item.question}</span>
                   <div className='w-3 h-3 border-t-4 border-r-4 border-SoftBlue -rotate-[225deg] -translate-x-1 pointer-events-none transition duration-200'></div>
-                  {/* {!dropdown ? <BsChevronDown size={20} fill='' className='pointer-events-none'/> : <BsChevronUp color='hsl(0, 94%, 66%)' size={20}/>} */}
               </div>
               <div className='hidden'>
                 <p className='text-GrayishBlue text-[15px] pr-2 py-[13px] leading-[2.005em]'>{item.answer}</p>

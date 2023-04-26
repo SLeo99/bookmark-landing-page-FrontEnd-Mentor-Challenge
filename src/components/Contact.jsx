@@ -27,12 +27,12 @@ export default function Contact() {
         <span className='block text-sm text-center tracking-[0.25em] text-White/50 font-medium uppercase lg:tracking-[.325em]'>35,000+ already joined</span>
         <h2 className='text-2xl text-center tracking-[0.002em] leading-7 font-medium text-White lg:text-[31px] lg:leading-9 lg:w-9/12'>Stay up-to-date with what we’re doing</h2>
       </div>
-      <form className="flex flex-col w-10/12 gap-4 lg:flex-row lg:justify-center">
-        <input type="email" placeholder='youremail@gmail.com' className='border-2 border-SoftRed/0 rounded-md focus:border-2 focus:border-SoftRed  focus:outline-none py-[10px] px-[18px] lg:w-3/12' onChange={(e) => {
+      <form className="flex flex-col w-10/12 gap-4 md:flex-row md:items-center md:justify-center">
+        <input type="email" placeholder='youremail@gmail.com' className='border-2 border-SoftRed/0 rounded-md focus:border-2 focus:border-SoftRed  focus:outline-none py-[10px] px-[18px] md:w-6/12 lg:w-3/12' onChange={(e) => {
           setEmail(e.target.value)
           handleValidation(e)
         }}/>
-        <button type="submit" className='py-3 tracking-tight rounded-md bg-SoftRed text-White lg:px-6'>Contact Us</button>
+        <button type="submit" className='py-3 tracking-tight rounded-md bg-SoftRed text-White md:px-6'>Contact Us</button>
       </form>
     </section>
   )
