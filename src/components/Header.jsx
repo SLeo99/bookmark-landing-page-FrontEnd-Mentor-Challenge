@@ -2,6 +2,9 @@ import React from 'react'
 import { useState } from 'react'
 import { FaFacebookSquare, FaTwitter } from "react-icons/fa";
 import bookmarkLogo from '../assets/logo-bookmark.svg'
+import burgerImg from '../assets/logo-bookmark-burguer-menu.svg'
+import mobileMenuLogo from '../assets/logo-bookmark-burguer-menu.svg'
+import closeMenuImg from '../assets/icon-close.svg'
 
 export default function Header() {
 
@@ -21,12 +24,12 @@ export default function Header() {
           <li><a href="#" className='uppercase tracking-[1px] font-medium text-GrayishBlue hover:text-SoftRed transition-colors'>Contact</a></li>
           <li className='py-[10px]'><a href="#" className='py-[12px] px-8 uppercase tracking-[1px] font-medium bg-SoftRed rounded-md text-White hover:bg-opacity-0 hover:text-SoftRed hover:outline hover:outline-SoftRed transition-colors'>Login</a></li>
         </ul>
-        <img src="../src/assets/icon-hamburger.svg" alt="burguer menu" className={menu ? 'hidden' : 'lg:hidden cursor-pointer'} onClick={handleClick}/>
+        <img src={burgerImg} alt="burguer menu" className={menu ? 'hidden' : 'lg:hidden cursor-pointer'} onClick={handleClick}/>
       </nav>
       <nav className={menu ? "block min-h-screen w-screen bg-VeryDarkBlue/90 fixed z-30 top-0 left-0 transition-all duration-300" : 'min-h-screen w-screen bg-VeryDarkBlue/90 fixed z-30 top-0 left-full transition-all duration-300'} aria-label='mobilenavigation'>
         <div className="flex justify-between items-center py-10 container px-8 sm:px-0 mx-auto w-full sm:w-11/12 lg:mx-[165px] 2xl:mx-auto">
-          <img src="../src/assets/logo-bookmark-burguer-menu.svg" alt="bookmarlogo" />
-          <img src="../src/assets/icon-close.svg" alt="closemenu-img" onClick={handleClick} className='cursor-pointer'/>
+          <img src={mobileMenuLogo} alt="bookmarlogo" />
+          <img src={closeMenuImg} alt="closemenu-img" onClick={handleClick} className='cursor-pointer'/>
         </div>
         <div className="flex flex-col mx-8">
           <li className='flex justify-center h-auto uppercase text-xl tracking-widest'><a href="#" className='py-[19px] w-full text-center pr-3 border-y border-GrayishBlue/30 text-White'>Features</a></li>
