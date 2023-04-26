@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .customunderline {
+    clip-path: polygon(27.5% 0, 72.5% 0, 72.5% 100%, 27.5% 100%);
+    animation: underline .2s ease-in-out;
+  }
+  .desktopunderline {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    animation: desktopunderline .2s ease-in-out;
+  }
+  .wordspace {
+    word-spacing: 10px;
+  }
+}
+
+@keyframes underline {
+  from {
+    clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
+  }
+  to {
+    clip-path: polygon(27.5% 0, 72.5% 0, 72.5% 100%, 27.5% 100%);
+  }
+}
+
+@keyframes desktopunderline {
+  from {
+    clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
