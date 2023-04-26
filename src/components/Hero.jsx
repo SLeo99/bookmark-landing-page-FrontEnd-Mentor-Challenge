@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImg from '../src/assets/illustration-hero.svg'
+import heroImg from '../assets/illustration-hero.svg'
 
 export default function Hero() {
   return (
