@@ -11,9 +11,6 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     animation: desktopunderline .2s ease-in-out;
   }
-  .wordspace {
-    word-spacing: 10px;
-  }
 }
 
 @keyframes underline {
